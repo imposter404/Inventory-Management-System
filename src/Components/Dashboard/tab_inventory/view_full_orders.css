@@ -1,0 +1,26 @@
+.offcanvas{
+  background: rgba(0, 0, 0, 0.459);
+  position: fixed;
+  inset: 0 0 0 0;
+  /* transform: translateY(100%); */
+  z-index: 1;
+  visibility: hidden;
+}
+.show{
+  visibility: visible !important;
+}
+
+.flex-container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .card{
+    /* width: 50%; */
+    aspect-ratio: 10/1;
+    background: yellowgreen;
+    border-radius: 20px;
+    padding: 40px;
+    color: black;
+  }
+}

@@ -1,0 +1,101 @@
+.middle-container{
+    display: grid;
+    grid-template-rows: 10% auto 10%;
+    /* gap: 50px; */
+    padding: 25px ;
+    .search{
+      display: grid;
+      align-items: center;
+      grid-template-columns: 1fr 50px;
+      padding: 0 50px;
+      width: 50%;
+      gap: 10px;
+      &.search-container{
+        .input{
+          height: 50px;
+          border-radius: 50px;
+          border: 1px solid var(--tabs-Color);
+          padding: 0 20px;
+          input{
+            color: white;
+            background: transparent;
+            font-size: 1.1em;
+            border: none;
+            height: 100%;
+            width: 100%;
+            &:focus-visible,:focus-within,:focus,:active{
+              outline: none;
+            }
+          }
+          &:focus-within{
+          border: 1px solid rgb(255, 255, 255);
+          }
+        }
+        .close{
+          cursor: pointer;
+          height: 50px;
+          border-radius: 50px;
+          transition: all .2s ease-in-out;
+          background:var(--tabs-backgroundColor);
+          &:hover{
+            background:var(--tabs-Color);
+            color: black;
+          }
+        }
+      }
+    }
+    .today{
+      display: grid;
+      align-items: center;
+    }
+    .grid-card-container{
+      /* width: 100%; */
+    }
+    .items.container{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      overflow: auto;
+      max-height: 75dvh;
+      height: fit-content;
+      .card-container{
+        display: grid;
+        padding: 20px;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 5fr 1fr 1fr;
+        grid-template-areas: "card card"
+                             "name name"
+                             "price add";
+        .card-area{
+          grid-area:card;
+          .card{
+            height: fit-content;
+            width: 24dvh;
+            min-height: 100px;
+            min-width: 100px;
+            aspect-ratio: 1/1;
+            background: rgba(255, 166, 0, .5);
+            border-radius: 50px;
+            transition: all .2s ease;
+            &:hover{
+              box-shadow: 0 0 0px 20px var(--tabs-backgroundColor);
+            }
+          }
+        }
+        .productName{
+          grid-area: name;
+          font-size: 1.2em;
+        }
+        .price{grid-area: price;}
+        .add{
+          grid-area: add;
+          background: rgba(255, 166, 0, .5);
+          border-radius: 50px;
+          transition: all .2s ease-in-out;
+          &:hover{
+            box-shadow: 0 0 0px 10px var(--tabs-backgroundColor);
+            cursor: pointer;
+          }
+        }
+      }
+    }
+}

@@ -1,0 +1,47 @@
+.offcanvas{
+  background: rgba(0, 0, 0, 0.459);
+  position: fixed;
+  inset: 0 0 0 0;
+  /* transform: translateY(100%); */
+  z-index: 1;
+  visibility: hidden;  
+    /* & *{
+    outline: 1px solid red;
+  } */
+}
+.slide-in-bottom{
+  visibility:visible;
+  animation: slide-in-bottom .5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+@keyframes slide-in-bottom{
+  0%{
+    transform: translateY(100%);
+  }
+  100%{
+    transform: translateY(0%);
+  }
+}
+.slide-out-bottom{
+  animation: slide-out-bottom .5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+@keyframes slide-out-bottom{
+  0%{
+    transform: translateY(0%);
+  }
+  100%{
+    transform: translateY(100%);
+  }
+}
+
+
+.tab_inventory{
+  display: grid;
+  grid-template-columns:10% 90%;
+  .navbar{
+    background: rgb(0, 14, 41);
+  }
+  .container1{
+    background: var(--card-backgroundColor);
+    padding: 20px 40px;
+  }
+}

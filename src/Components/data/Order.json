@@ -1,0 +1,198 @@
+[
+    {"invoice":"3065","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+     "total":100,"mode":"CASH"},
+    {"invoice":"3066","date":"Jan 20,2020","status":"canceled","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"UPI"},
+    {"invoice":"3067","date":"Jan 20,2020","status":"refunded","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3068","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3069","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3070","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3071","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3072","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3073","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3074","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3075","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3076","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3078","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3079","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3080","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+     "total":100,"mode":"CASH"},
+    {"invoice":"3066","date":"Jan 20,2020","status":"canceled","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"UPI"},
+    {"invoice":"3067","date":"Jan 20,2020","status":"refunded","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3068","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3069","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3070","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3071","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3072","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3073","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3074","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3075","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3076","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3078","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"},
+    {"invoice":"3079","date":"Jan 20,2020","status":"paid","customer":{"name":"Arthur Melo","phone":"123456"},
+     "items":[
+         {"id":1,"product":"Apple","price":"50","quantity":"1","total":"100"},
+         {"id":2,"product":"Orange","price":"1","quantity":"2","total":"200"},
+         {"id":3,"product":"Mango","price":"2","quantity":"3","total":"300"}
+     ],
+    "total":200,"mode":"CASH"}
+]

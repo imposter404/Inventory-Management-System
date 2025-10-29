@@ -1,0 +1,149 @@
+.right{
+    padding: 20px;
+    &.container{
+      .card{
+        background: var(--card-backgroundColor);
+        border-radius: 20px;
+        padding: 20px;
+        &.container{
+          display: grid;
+          grid-template-rows: 10% 52% 38%;
+          .order.container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border: none;
+            border-bottom: 2px dashed rgba(140, 139, 139, 0.3);
+            .order-id{
+              font-size:24px;
+            }
+            .mode{
+              background: var(--tabs-backgroundColor);
+              color: white;
+              width: 100%;
+              padding: 10px 20px;
+              border-radius: 40px;
+              border: 1px solid var(--tabs-Color);
+              cursor: pointer;
+            }
+          }
+          .item{
+            overflow: auto;
+            max-height:49dvh;
+            & *{
+              /* outline:1px solid red */
+            }
+            .item-div{
+              padding: 10px 0;
+              .grid-container{
+                /* padding: 10px; */
+                display: grid;
+                grid-template-columns:1fr 2fr 1fr auto;
+                height: 80px;
+                .close{
+                  cursor: pointer;
+                }
+                .circle{
+                  width: fit-content;
+                  height:100%;
+                  aspect-ratio: 1/1;
+                  background: var(--tabs-backgroundColor) ;
+                  border-radius: 50%;
+                }
+                .square{
+                  height: 100%;
+                  aspect-ratio: 1/1;
+                  background-color: var(--tabs-backgroundColor);
+                  border-radius: 20px;
+                  height: 100%;
+                }
+                .container-row{
+                  display: grid;
+                  grid-template-rows: 1fr 1fr;
+                  margin: 0 0 0 10px ;
+                  /* padding: 5px 0; */
+                  .item-name{
+                    display: flex;
+                    align-items: center;
+                    font-size: 1.1em;
+                  }
+                  .button-container{
+                    background: var(--tabs-backgroundColor);
+                    border-radius: 20px;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    cursor: pointer;
+                  }
+                }
+              }
+            }
+            .cart-empty{
+              height:100%;
+              font-size:20px
+            }
+          }
+          .total{
+            .container{
+              display: grid;
+              grid-template-columns: 1fr 5fr;
+              gap: 20px;
+
+              &.discount{
+                height: fit-content;
+                & div{
+                  margin: 0;
+                }
+              }
+              input{
+                background: transparent;
+                outline:none ;
+                border: none;
+                color: white;
+                font-size: 17;
+                width: 50px;
+                height: 30px;
+                padding: 2px 20px;
+                display: flex;
+                justify-items: right;
+                border:  1px solid var(--tabs-Color);
+                border-radius: 20px;
+                margin: 0;
+                &::-webkit-inner-spin-button{
+                  -webkit-appearance: none;
+                }
+              }
+
+
+              &.payment{
+                margin: 15px 0;
+                .circle{
+                  height: 50px ;
+                  aspect-ratio: 1/1;
+                  border-radius: 50px;
+                  background: var(--tabs-backgroundColor);
+                  &:hover{
+                    background: var(--tabs-Color);
+                    box-shadow: 0 0 0 10px var(--tabs-backgroundColor);
+                  }
+                }
+                .pay{
+                  background: var(--tabs-backgroundColor);
+                  border-radius: 50px;
+                  cursor: pointer;
+                  transition: all .2s ease-in-out;
+                  &:hover{
+                    background: var(--tabs-Color);
+                    box-shadow: 0 0 0 10px var(--tabs-backgroundColor);
+                  }
+                }
+              }
+            }
+            .dash-hr{
+              border: none;
+              border-top: 2px dashed rgba(140, 139, 139, 0.3);
+              margin: 20px 0;
+            }
+          }
+        }
+      }
+    }
+}

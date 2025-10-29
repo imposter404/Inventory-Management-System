@@ -1,0 +1,69 @@
+[
+  {"id": 1,"product": "Apple","catagory":"Food","size": [
+      { "size": "S", "price": "11", "quantity": "10" },
+      { "size": "M", "price": "21", "quantity": "20" },
+      { "size": "L", "price": "31", "quantity": "30" }
+    ]
+  },
+  {"id": 2,"product": "Orange","catagory":"Food","size": [
+      { "size": "S", "price": "22", "quantity": "10" },
+      { "size": "M", "price": "22", "quantity": "20" },
+      { "size": "L", "price": "32", "quantity": "30" }
+    ]
+  },
+  {"id": 3,"product": "Mango","catagory":"Food","size": [
+      { "size": "S", "price": "13", "quantity": "10" },
+      { "size": "M", "price": "23", "quantity": "20" },
+      { "size": "L", "price": "33", "quantity": "30" }
+    ]
+  },
+  {"id": 4,"product": "Banana","catagory":"Food","size": [
+      { "size": "S", "price": "14", "quantity": "10" },
+      { "size": "M", "price": "24", "quantity": "20" },
+      { "size": "L", "price": "34", "quantity": "30" }
+    ]
+  },
+  {"id": 5,"product": "Watermelon","catagory":"Food","size": [
+      { "size": "S", "price": "15", "quantity": "10" },
+      { "size": "M", "price": "25", "quantity": "20" },
+      { "size": "L", "price": "35", "quantity": "30" }
+    ]
+  },
+  {"id": 6,"product": "Lichi","catagory":"Food","size": [
+      { "size": "S", "price": "16", "quantity": "10" },
+      { "size": "M", "price": "26", "quantity": "20" },
+      { "size": "L", "price": "36", "quantity": "30" }
+    ]
+  },
+  {"id":10,"product":"Tea","catagory":"Drinks","size": [
+      { "size": "S", "price": "11", "quantity": "10" },
+      { "size": "M", "price": "21", "quantity": "20" },
+      { "size": "L", "price": "31", "quantity": "30" }
+    ]
+  },
+  {"id":20,"product":"Coffee","catagory":"Drinks","size": [
+      { "size": "S", "price": "16", "quantity": "10" },
+      { "size": "M", "price": "26", "quantity": "20" },
+      { "size": "L", "price": "36", "quantity": "30" }
+    ]},
+  {"id":30,"product":"Coca Cola","catagory":"Drinks","size": [
+      { "size": "S", "price": "16", "quantity": "10" },
+      { "size": "M", "price": "26", "quantity": "20" },
+      { "size": "L", "price": "36", "quantity": "30" }
+    ]},
+  {"id":40,"product":"7UP","catagory":"Drinks","size": [
+      { "size": "S", "price": "16", "quantity": "10" },
+      { "size": "M", "price": "26", "quantity": "20" },
+      { "size": "L", "price": "36", "quantity": "30" }
+    ]},
+  {"id":50,"product":"RedBull","catagory":"Drinks","size": [
+      { "size": "S", "price": "16", "quantity": "10" },
+      { "size": "M", "price": "26", "quantity": "20" },
+      { "size": "L", "price": "36", "quantity": "30" }
+    ]},
+  {"id":60,"product":"Monster","catagory":"Drinks","size": [
+      { "size": "S", "price": "16", "quantity": "10" },
+      { "size": "M", "price": "26", "quantity": "20" },
+      { "size": "L", "price": "36", "quantity": "30" }
+    ]}
+]

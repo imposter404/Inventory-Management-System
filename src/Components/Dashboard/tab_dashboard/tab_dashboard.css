@@ -1,0 +1,16 @@
+.dashboard{
+  .stats{
+    gap: 5%;
+    .card{
+      border-radius:20px ;
+      height: 140px;
+      /* aspect-ratio: 2/1; */
+      overflow: hidden;
+      /* background: rebeccapurple; */
+      /* background: rgb(49, 17, 82); */
+      /* background: rgb(36, 0, 71); */
+      background: rgb(56, 26, 85);
+      outline: 1px solid rgba(0, 0, 0, 0.295);
+    }
+  }
+}

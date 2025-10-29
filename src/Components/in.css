@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @plugin 'daisyui'; */
+
+/* @plugin "daisyui"; */
+/* @import "daisyui"; */
+
+
+
+*{
+  /* outline: 1px solid red; */
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+.center{
+  display: flex;justify-content: center;
+  &.left{display: grid;align-items: center;justify-content: left;}
+  &.right{display: grid;align-items: center;justify-content: right;}
+  &.top{display: grid;align-items: end;justify-content:left;}
+  &.bottom{display: grid;align-items: start;justify-content: left;}
+}
+.middle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right{
+  display: grid;
+  justify-content: right;
+}
+
+
+:root{
+  --home-backgroundColor:rgb(0, 0, 0);
+  --card-backgroundColor:rgb(43, 43, 43);
+  --tabs-backgroundColor:rgba(255, 166, 0, 0.219);
+  --tabs-Color:rgb(255, 165, 0);;
+}
+
+.a{
+background:rgb(255, 165, 0);
+}
+
+.home{
+  height: 100dvh;
+  background: rgb(0, 0, 0);
+  .grid-container{
+    display: grid;
+    grid-template-columns:1fr 3fr 1.2fr;
+    /* background: rgba(0, 26, 255, 0.418); */
+    height: 100dvh;
+  }
+  .box{
+    border-radius: 40px;
+  }
+}
+
+
+.modal{
+  /* background: black; */
+  .modal-box{
+    background: var(--card-backgroundColor);
+    border-radius: 40px;
+    padding: 60px 40px;
+    .grid-container{
+      width: 100%;
+      display:grid ;
+      grid-template-columns: 40% 60%;
+      /* gap: 50px; */
+      .card{
+        width: 100%;
+        aspect-ratio: 1/1;
+        background:var(--tabs-backgroundColor);
+        border-radius: 40px;
+      }
+      .container{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-template-areas:  "product product product product"
+                              "price price price quantity"
+                              "size add add add";
+        gap: 20px 20px;
+        .product{grid-area: product;}
+        .price{ grid-area: price;}
+        .quantity{grid-area: quantity}
+        .size{grid-area:size;padding: 0 !important;}
+        .add{
+          grid-area: add;
+          background: var(--tabs-backgroundColor);
+          border-radius: 50px;
+          cursor: pointer;
+          transition: all .2s ease-in-out;
+          &:hover{
+            background: var(--tabs-Color);
+            box-shadow: 0 0 0 10px var(--tabs-backgroundColor);
+          }
+        }
+        .product,.price,.quantity,.quantity,.size,.add{
+          padding: 0 20px;
+          background: var(--tabs-backgroundColor);
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+  & *{
+  /* outline: 1px solid red; */
+  }
+}
+
+
