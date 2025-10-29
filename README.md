@@ -1,6 +1,6 @@
 # Inventory Management System 
 
-## Written In React
+## Written In React :rocket:
 <div>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height="50px" alt="react" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" height="50px" alt="tailwindcss" />
@@ -16,8 +16,8 @@ A Full Stack Inventory Management System completely written in React from scratc
 
 With Dashbord to visualise sell records with Profit and loss displayed in graph format for easy interpretation.
 
-Features :
-- Billing System
+Features ✅:
+- Billing System 
 - Inventory Tracker
 - Invoice Generator
 - Sell Records
