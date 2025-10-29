@@ -17,13 +17,13 @@ A Full Stack Inventory Management System completely written in React from scratc
 With Dashbord to visualise sell records with Profit and loss displayed in graph format for easy interpretation.
 
 Features ✅:
-- Billing System 
+- Billing System :page_with_curl:
 - Inventory Tracker
 - Invoice Generator
 - Sell Records
 - Product Records
-- Dashbord 
-- Data visualisation 
+- Dashbord :clipboard:
+- Data visualisation :chart_with_upwards_trend:
 
 
 
